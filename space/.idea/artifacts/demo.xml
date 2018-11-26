@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="demo">
-    <output-path>$PROJECT_DIR$/out/artifacts/demo</output-path>
-    <root id="archive" name="demo.jar">
-      <element id="file-copy" path="$PROJECT_DIR$/src/study_part5/IDEADemo2.java" />
-    </root>
-  </artifact>
-</component>
