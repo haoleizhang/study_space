@@ -1,0 +1,13 @@
+#忽略所有.class文件
+*.class
+
+#忽略.idea文件夹
+.idea/*
+
+#忽略指定文件
+Maventest.iml
+.DS_store
+
+
+#不忽略某些文件
+#!.idea/*
