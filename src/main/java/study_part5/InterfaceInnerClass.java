@@ -81,7 +81,7 @@ public class InterfaceInnerClass  {
         outclass.staticdemo sd = new outclass.staticdemo();
         sd.cases();
 
-        String content = "局部变量";
+        final String content = "局部变量";
 
 
 

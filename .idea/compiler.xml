@@ -9,8 +9,8 @@
         <module name="Maventest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Maventest" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Maventest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
