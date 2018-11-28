@@ -2,7 +2,7 @@ package study_part6;
 
 /**
  * Created by zhanghaolei on 2018/11/27.
- * StringBuffer比StringBuild（简易使用build）
+ * StringBuffer比StringBuild（多线程建议使用build）
  * 安全但是性能低 原因是因为：synchronized
  * 尽量减少synchronized的作用域
  */

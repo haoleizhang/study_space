@@ -4,7 +4,7 @@ package study_part6;
  * Created by biz on 2018/8/6.
  *
  * StringBuilder速度最快，但是不安全
- * StringBuffer 是用synchronized修饰过的，表示同步，在多线程并发的时候开业保证线程安全，建议使用StringBuffer
+ * StringBuffer 是用synchronized修饰过的，表示同步，在多线程并发的时候可以保证线程安全，建议使用StringBuffer
  *
  *
  * 使用StringBuffer无参数构造器时，底层实际上是创建了一个长度为16的char数组

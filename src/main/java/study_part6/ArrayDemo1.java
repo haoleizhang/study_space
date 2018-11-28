@@ -3,6 +3,8 @@ package study_part6;
 /**
  * Created by biz on 2018/11/28.
  * 单例设计模式-饿汉式
+ *
+ * 推荐使用！！！！
  */
 
 
