@@ -9,4 +9,8 @@ public class ShareDemo {
     private String name;
     //性别
     private String gender;
+
+    public void PushProduct(String name,String gender){
+
+    }
 }
