@@ -21,9 +21,24 @@ public class IODemo01 {
 */
         IODemo01 io = new IODemo01();
 //        io.test1();
-        io.test2();
-        test3();
+//        io.test2();
+//        test3();
+        test4("/Users/user/oa-platform/study_space/src/main/java/test_dir");
+    }
 
+    private static void test4(String dir) {
+
+        File file  = new File(dir);
+        File[] file2 = file.listFiles();
+        for (File file1: file2
+             ) {
+            if (file1.isDirectory()){
+//                System.out.println(file1.getName());
+//                System.out.println(file1.getPath());
+                test4(file1.getPath());
+            }
+            System.out.println(file1.getName());
+        }
     }
 
     /*
