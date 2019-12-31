@@ -7,6 +7,7 @@
 #忽略指定文件
 Maventest.iml
 .DS_store
+target/
 
 
 #不忽略某些文件
