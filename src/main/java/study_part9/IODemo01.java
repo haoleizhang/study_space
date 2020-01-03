@@ -42,7 +42,7 @@ public class IODemo01 {
 
         System.out.println(partlist);
 
-//颠倒list元素的顺序
+        //颠倒list元素的顺序
         Collections.reverse(partlist);
         System.out.println(partlist);
 
