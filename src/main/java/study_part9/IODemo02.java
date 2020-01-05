@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * @program: Maventest
- * @description: IO操作
+ * @description: 获取系统属性
  * @author: 作者名称
  * @date: 2020-01-02 23:09
  **/
@@ -17,11 +17,11 @@ public class IODemo02 {
 
         Set<Map.Entry<Object, Object>> set = pro.entrySet();
 
-//        for (Map.Entry me:set
-//             ) {
-//            System.out.println(me.getKey()+"  +  "+me.getValue());
+        for (Map.Entry me:set
+             ) {
+            System.out.println(me.getKey()+"  +  "+me.getValue());
 
         System.out.println(pro.get("user.dir"));
-//        }
+        }
     }
 }

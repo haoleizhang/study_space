@@ -16,7 +16,7 @@ public class FileOutstremDemo01 {
     public static void main(String[] args) throws Exception {
 
         /*第一步:创建源对象或者目标对象，表示把数据存放到哪个文件或者从哪个文件读取数据*/
-        File file = new File("/Users/user/oa-platform/study_space/src/main/java/study_part9/test1.json");
+        File file = new File("/Users/user/oa-platform/study_space/src/main/java/study_part9/test1");
         /*第二步：创建连接对象*/
         OutputStream outputStream = new FileOutputStream(file,true);//appen参数：是否在源文件基础上追加
         /*第三步：具体的操作方法*/
