@@ -18,18 +18,19 @@ public class InputStremDemo {
         Reader reader = new FileReader(fi);
 
         writer.write("这是一个Java程序");
-        writer.close();
-
+        writer.flush();
 //        System.out.println(reader.read());
 //        System.out.println(reader.read());
 //        System.out.println(reader.read());
 
         char[] chars = new char[3];
         int len;
-        while ((len = reader.read(chars))!=-1){
-            System.out.println(new String(chars,0,len));
+        while ((len = reader.read(chars)) != -1) {
+            System.out.println(new String(chars, 0, len));
         }
 
         reader.close();
+        writer.close();
+
     }
 }
